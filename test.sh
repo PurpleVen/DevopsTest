@@ -9,4 +9,9 @@ echo The second argument is $2
 echo And third argument is $3
 
 echo \$ $$ PID of the script 
-echo # $# Total number of arguments 
+
+echo \# $# Total number of arguments 
+
+echo \# $? Last return code
+
+echo \# $* All the arguments 
